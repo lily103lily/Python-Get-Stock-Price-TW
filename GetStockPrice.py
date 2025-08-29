@@ -3,7 +3,7 @@ import yfinance as yf
 from datetime import datetime
 
 # ✅ 你的 LINE Channel Access Token（勿洩漏給他人）
-CHANNEL_ACCESS_TOKEN = 'KiHPSgKTXtT02+Y/zyr64tmHrwONESkdzHsUolFiSkn+OzqTm9B7M2A8EM0QyfdXIaRUTg06fCHAl1TAgoQZBzvimM+W0CNcriaJinz6wyEklDCYHI6W8PMbp+Ko+OjhzHvpmIaM56Qjit8NAlW+nAdB04t89/1O/w1cDnyilFU='
+CHANNEL_ACCESS_TOKEN = '?'
 
 # ✅ 股票清單（可加更多）
 symbols = ["2330.TW", "2317.TW", "0050.TW", "0056.TW"]
@@ -127,3 +127,4 @@ message = get_today_close_prices()
 send_line_broadcast(message)
 
 print(message)
+
